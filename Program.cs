@@ -15,7 +15,8 @@ namespace FGTS
             
             double contaPorcentagem = porcentagemEntrada / 100 * salario;
             Console.WriteLine($"FGTS (R$): {contaPorcentagem}");
-
+            Console.WriteLine("Pressione qualquer tecla para sair");
+            Console.ReadKey();
         }
     }
 }
